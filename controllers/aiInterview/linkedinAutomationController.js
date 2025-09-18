@@ -11,13 +11,13 @@ dotenv.config()
 
 const BROWSER_CONFIG = {
   development: {
-    headless: false,
-    slowMo: 1000,
+    headless: true,
+    slowMo: 10,
     devtools: false,
   },
   production: {
-    headless: false,
-    slowMo: 1000,
+    headless: true,
+    slowMo: 10,
     devtools: false,
   },
 }
